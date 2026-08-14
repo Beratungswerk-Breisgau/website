@@ -4,22 +4,23 @@ A simple, static website for Beratungswerk Breisgau consulting company, built wi
 
 ## Quick Start
 
-### Installation
+### 1. Installation (Required First Step)
 ```bash
 npm install
 ```
+This installs 11ty and all dependencies. **You must run this first.**
 
-### Development
+### 2. Development
 ```bash
 npm run serve
 ```
 This starts a local development server at `http://localhost:8080` with live reload.
 
-### Build for Production
+### 3. Build for Production
 ```bash
 npm run build
 ```
-This generates the static HTML in the `_site/` directory.
+This generates the static HTML in the `_site/` directory. Run this before committing/pushing changes.
 
 ## Project Structure
 
