@@ -58,4 +58,4 @@ Unsere Leistungen:
 * Beratung bei organisatorischen Veränderungen
 * Unterstützung bei Ein- und Höhergruppierungen
 
-Unsere Gutachten sind nachvollziehbar, transparent und praxisgerecht aufbereitet.
+**Unsere Gutachten sind nachvollziehbar, transparent und praxisgerecht aufbereitet**.

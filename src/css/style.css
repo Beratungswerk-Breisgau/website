@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #4f7290;
+  --color-primary: #6499bd;
   --color-secondary: #ffffff;
   --color-accent: #2c3e50;
   --color-text: #333333;
@@ -162,6 +162,16 @@ h3 {
 
 p {
   margin-bottom: 1rem;
+}
+
+ul, ol {
+  margin-left: 0;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 a {
