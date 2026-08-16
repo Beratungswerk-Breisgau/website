@@ -10,7 +10,7 @@ title: Beratungswerk Breisgau
     <p><strong>Kompetent. Praxisnah. Partnerschaftlich.</strong></p>
   </div>
   <div class="hero-image">
-    <img src="/img/Lars Brügner.JPG" alt="Lars Brügner">
+    {% image "img/Lars Brügner.JPG", "Lars Brügner" %}
     <div class="hero-image-caption">Lars Brügner</div>
   </div>
 </div>
