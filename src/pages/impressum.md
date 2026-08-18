@@ -8,16 +8,15 @@ permalink: /impressum/
 
 ## Angaben gemäß § 5 TMG
 
-**Beratungswerk Breisgau**
+**Beratungswerk Breisgau GbR**
 
 Vertreten durch: Lars Brügner
 
-[Adresse einfügen]
-[Postleitzahl] [Stadt]
+E-Mail: [info@beratungswerk-breisgau.de](mailto:info@beratungswerk-breisgau.de)
+Telefon: [0173 3471313][tel:+491733471313] und [0156 79791583][tel:+4915679791583]
 
-## Kontakt
-
-Email: [info@beratungswerk-breisgau.de](mailto:info@beratungswerk-breisgau.de)
+Alemannenstraße 16
+79279 Vörstetten
 
 ## Haftungsausschluss
 
