@@ -150,6 +150,116 @@ nav a:hover {
   font-size: 1rem;
 }
 
+/* Partner profiles */
+.partner-list {
+  display: grid;
+  gap: 2rem;
+}
+
+.partner-card {
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.partner-card-header {
+  background: #f5f7f8;
+  border-bottom: 1px solid var(--color-border);
+  padding: 1.25rem 1.5rem;
+}
+
+.partner-card-header h2,
+.partner-tagline {
+  margin: 0;
+}
+
+.partner-card-header h2 {
+  color: var(--color-accent);
+  font-size: 1.4rem;
+}
+
+.partner-tagline {
+  color: #5b6872;
+  margin-top: 0.35rem;
+}
+
+.partner-card-body {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.partner-contact-person {
+  align-self: start;
+  color: var(--color-accent);
+  padding-top: 0.15rem;
+}
+
+.partner-contact-person strong,
+.partner-contact-person span {
+  display: block;
+}
+
+.partner-contact-person span {
+  color: #5b6872;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.partner-details p {
+  color: #5b6872;
+  margin-bottom: 1.5rem;
+}
+
+.partner-details h3 {
+  color: var(--color-accent);
+  font-size: 1.15rem;
+  margin: 0 0 0.5rem;
+}
+
+.partner-services {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+}
+
+.partner-services li {
+  color: #5b6872;
+  margin-bottom: 0.65rem;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.partner-services li::before {
+  background: var(--color-primary);
+  border-radius: 50%;
+  content: "";
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 0.65em;
+  width: 7px;
+}
+
+.partner-services strong {
+  color: var(--color-text);
+}
+
+.partner-contact {
+  border-top: 1px solid var(--color-border);
+  color: #5b6872;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding-top: 1.25rem;
+}
+
+.partner-contact a {
+  border: 0;
+  font-weight: 600;
+}
+
 /* Content pages */
 h1 {
   font-size: 2rem;
@@ -286,4 +396,15 @@ footer a:hover {
   .hero-text p {
     font-size: 1rem;
   }
+
+  .partner-card-header,
+  .partner-card-body {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .partner-card-body {
+    grid-template-columns: 1fr;
+  }
+
 }

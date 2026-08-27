@@ -1,0 +1,46 @@
+---
+layout: layout.njk
+title: Partner
+permalink: /pages/partner/
+---
+
+<h1>Unsere Partner</h1>
+
+<div class="partner-list">
+  {% for partner in partners %}
+    <article class="partner-card">
+      <header class="partner-card-header">
+        <div>
+          <h2>{{ partner.name }}</h2>
+          <p class="partner-tagline">{{ partner.tagline }}</p>
+        </div>
+      </header>
+
+      <div class="partner-card-body">
+        <div class="partner-contact-person">
+          <strong>{{ partner.contactPerson.name }}</strong>
+          <span>{{ partner.contactPerson.role }}</span>
+        </div>
+
+        <div class="partner-details">
+          <h3>Über uns</h3>
+          <p>{{ partner.about }}</p>
+
+          <h3>Leistungen</h3>
+          <ul class="partner-services">
+            {% for service in partner.services %}
+              <li><strong>{{ service.name }}</strong> — {{ service.description }}</li>
+            {% endfor %}
+          </ul>
+
+          <div class="partner-contact">
+            <span>{{ partner.contact.address }}</span>
+            <span>Telefon: <a href="tel:{{ partner.contact.phoneUrl }}">{{ partner.contact.phone }}</a></span>
+            <span>E-Mail: <a href="mailto:{{ partner.contact.email }}">{{ partner.contact.email }}</a></span>
+            <span>Webseite: <a href="{{ partner.url }}" target="_blank" rel="noopener">{{ partner.url | replace("https://", "") }}</a></span>
+          </div>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>

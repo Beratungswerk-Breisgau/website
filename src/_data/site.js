@@ -7,6 +7,7 @@ module.exports = {
     { title: "Startseite", url: "/" },
     { title: "Über uns", url: "/pages/warum-wir/" },
     { title: "Leistungen", url: "/pages/leistungen/" },
+    { title: "Partner", url: "/pages/partner/" },
     { title: "Kontakt", url: "/pages/kontakt/" }
   ]
 };
